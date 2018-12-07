@@ -1,0 +1,68 @@
+.task-modal{
+  width:80%!important;
+  .ant-calendar-picker{
+    display: inline-block;
+  }
+  //日期的input
+  .ant-calendar-picker-input.ant-input{
+      width:180px;
+  }
+  //下拉框
+  .ant-select-selection.ant-select-selection--single{
+    width:180px;
+    height:34px;
+    background: #fff;
+    color: #7e7e7e;
+    border:1px solid #7e7e7e;
+  }
+}
+//日历的每一个颜色
+.ant-calendar-date{
+  color: #7e7e7e;
+}
+.add-task-select{
+  color:#7e7e7e;
+}
+//下拉框的颜色
+.ant-select-selection-selected-value{
+  color: #7e7e7e;
+}
+//下拉框的箭头
+.ant-select-arrow{
+  color: #7e7e7e;
+}
+.anticon.anticon-down.ant-select-arrow-icon>svg{
+  fill: #7e7e7e;
+}
+
+//日历后面的图标
+.new-flight-item-inner>div{
+  position: relative;
+}
+.anticon.anticon-calendar.ant-calendar-picker-icon{
+  position: absolute;
+  right:6px;
+  top:-12px;
+}
+.anticon.anticon-close-circle.ant-calendar-picker-clear{
+  position: absolute;
+  right:6px;
+  top:-12px;
+}
+.anticon.anticon-close-circle.ant-calendar-picker-clear>svg{
+  fill: #7e7e7e;
+}
+.anticon.anticon-calendar.ant-calendar-picker-icon>svg{
+  fill:#7e7e7e;
+}
+.add-task-select-item{
+  background: #fff;
+  color: #7e7e7e;
+}
+.add-task-select-item:hover{
+  background:lightskyblue;
+}
+//日历选择时间的背景色
+.ant-calendar-time-picker-inner{
+  background: #fff;
+}

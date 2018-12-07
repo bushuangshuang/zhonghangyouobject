@@ -1,0 +1,43 @@
+/************************************ 普通样式变量 *****************************************/
+
+//头部高度
+$navigationbar-height : 45px ;
+
+
+/************************************ 颜色定义 *****************************************/
+
+// 主色
+$global-primary: #2a2c3b;
+//表单突出文字背景
+$form-textbg:#3e3e7e;
+//大背景的渐变色
+$bg-gradient:#383747;
+//少数文字的颜色
+$word-color:#c2cae5;
+//辅助色之一
+$Auxiliary-one:#f83c68;
+//辅助色之一
+$Auxiliary-two:#02c4b5;
+//新建任务modal
+$addFilght-modal:100%;
+//油料modal
+$oil-modal:50%;
+
+//标准字
+//字体微软雅黑 (Microsoft Yahei Font)
+//样式    字号   使用场景
+//标准字  24px   用于少数菜单上的文字、
+//标准字  22px   用于少数菜单
+//标准字  20px   用于少数菜单 顶部导航栏字体、
+//标准字  18px    用于大部分内容文字
+$Auxiliary-two:#02c4b5;
+@mixin card-shadow{
+  box-shadow: 10px 10px 10px #2a2c3b;
+  //todo 颜色
+}
+//圆角
+@mixin card-border-radius{
+  border-radius:10px;
+}
+
+

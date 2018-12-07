@@ -1,0 +1,42 @@
+.flightList_box{
+  width:100%;
+  height:100%;
+  border-radius:10px 10px 0 0;
+  //导航条样式
+  .list-nav{
+    width:100%;
+    height:50px;
+    background: #3d478c;
+    border-radius:10px 10px 0 0;
+    display: flex;
+    justify-content: space-between;
+    padding:0 12px;
+    .flight-nav-left{
+      display: flex;
+      .title-img{
+        width:16px;
+        height:16px;
+        margin-top:18px;
+        >img{
+          width:100%;
+          height:100%;
+          display: block;
+        }
+      }
+      >h3{
+        font-size:16px;
+        line-height: 50px;
+        margin-left:6px;
+      }
+    }
+    .flight-search{
+      line-height: 50px;
+    }
+  }
+
+  .flight-filter{
+    line-height: 50px;
+    padding-left:6px;
+  }
+
+}

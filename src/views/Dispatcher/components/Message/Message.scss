@@ -1,0 +1,29 @@
+.Message_box{
+  padding: 2rem;
+  .Message_header{
+    display: flex;
+    justify-content: space-between;
+  }
+    .Message_content_item{
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      .Message_content_item_list{
+        color:#ED446C;
+        font-size: 17px;
+        //font-weight:bold;
+      }
+    }
+  .Message_content_item{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    .Message_content_item_list{
+      color:#ED446C;
+      font-size: 17px;
+      //font-weight:bold;
+    }
+  }
+
+
+}

@@ -1,0 +1,138 @@
+// 航班列表
+export const GET_FLIGHT_LIST = 'GET_FLIGHT_LIST'
+export const GET_FLIGHT_LIST_SUCCESS = 'GET_FLIGHT_LIST_SUCCESS'
+export const GET_FLIGHT_LIST_ERROR = 'GET_FLIGHT_LIST_ERROR'
+// 本场航班列表
+export const GET_THIS_FLIGHT_LIST = 'GET_THIS_FLIGHT_LIST'
+export const GET_THIS_FLIGHT_LIST_SUCCESS = 'GET_THIS_FLIGHT_LIST_SUCCESS'
+export const GET_THIS_FLIGHT_LIST_ERROR = 'GET_THIS_FLIGHT_LIST_ERROR'
+// 航班列表表头
+export const GET_FLIGHT_TITLE = 'GET_FLIGHT_TITLE'
+export const GET_FLIGHT_TITLE_SUCCESS = 'GET_FLIGHT_TITLE_SUCCESS'
+export const GET_FLIGHT_TITLE_ERROR = 'GET_FLIGHT_TITLE_ERROR'
+// 新建航班任务 modal
+export const SHOW_ADD_TASK_MODAL = 'SHOW_ADD_TASK_MODAL'
+export const HIDE_ADD_TASK_MODAL = 'HIDE_ADD_TASK_MODAL'
+// 新建航班
+export const ADD_FLIGHT = 'ADD_FLIGHT'
+export const ADD_FLIGHT_SUCCESS = 'ADD_FLIGHT_SUCCESS'
+export const ADD_FLIGHT_ERROR = 'ADD_FLIGH_ERROR'
+// 修改航班---航班任务栏中右键的时候的弹框
+export const FLIGHT_RIGHT_SHOW = 'FLIGHT_RIGHT_SHOW'
+export const FLIGHT_RIGHT_HIDE = 'FLIGHT_RIGHT_HIDE'
+// 修改航班 modal
+export const SHOW_EDIT_TASK_MODAL = 'SHOW_EDIT_TASK_MODAL'
+export const HIDE_EDIT_TASK_MODAL = 'HIDE_EDIT_TASK_MODAL'
+// 获取航班id flgtId
+export const FLIGHT_ID = 'FLIGHT_ID'
+// 修改航班
+export const UPDATE_FLIGHT = 'UPDATE_FLIGHT'
+export const UPDATE_FLIGHT_SUCCESS = 'UPDATE_FLIGHT_SUCCESS'
+export const UPDATE_FLIGHT_ERROR = 'UPDATE_FLIGHT_ERROR'
+// 修改航班详情
+export const UPDATE_FLIGHT_DETAIL = 'UPDATE_FLIGHT_DETAIL'
+export const UPDATE_FLIGHT_DETAIL_SUCCESS = 'UPDATE_FLIGHT_DETAIL_SUCCESS'
+export const UPDATE_FLIGHT_DETAIL_ERROR = 'UPDATE_FLIGHT_DETAIL_ERROR'
+// 航班详情
+export const FLIGHT_DETAIL = 'FLIGHT_DETAIL'
+export const FLIGHT_DETAIL_SUCCESS = 'FLIGHT_DETAIL_SUCCESS'
+export const FLIGHT_DETAIL_ERROR = 'FLIGHT_DETAIL_ERROR'
+// 用户登录
+export const LOGIN = 'LOGIN'
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS'
+export const LOGIN_ERROR = 'LOGIN_ERROR'
+// 退出
+export const OUT = 'OUT'
+// 获取人员信息
+export const GET_STAFF_LIST = 'GET_STAFF_LIST'
+export const GET_STAFF_LIST_SUCCESS = 'GET_STAFF_LIST_SUCCESS'
+export const GET_STAFF_LIST_ERROE = 'GET_STAFF_LIST_ERROR'
+// 任务列表
+export const GET_TASK_LIST = 'GET_TASK_LIST'
+export const GET_TASK_LIST_SUCCESS = 'GET_TASK_LIST_SUCCESS'
+export const GET_TASK_LIST_ERROR = 'GET_TASK_LIST_ERROR'
+// 任务取消
+export const CANCEL_TASK = 'CANCEL_TASK'
+export const CANCEL_TASK_SUCCESS = 'CANCEL_TASK_SUCCESS'
+export const CANCEL_TASK_ERROR = 'CANCEL_TASK_ERROR'
+// 当在任务栏中右键的时候
+export const RIGHT_SHOW = 'RIGHT_SHOW'
+export const RIGHT_HIDE = 'RIGHT_HIDE'
+// 修改任务
+export const UPDATE_TASK = 'UPDATE_TASK'
+export const UPDATE_TASK_SUCCESS = 'UPDATE_TASK_SUCCESS'
+export const UPDATE_TASK_ERROR = '_ERROR'
+// 任务下发
+export const DISPACTER_TASK = 'DISPACTER_TASK'
+export const DISPACTER_TASK_SUCCESS = 'DISPACTER_TASK_SUCCESS'
+export const DISPACTER_TASK_ERROR = 'DISPACTER_TASK_ERROR'
+// 拖拽开始
+export const DRAG_TASK = 'DRAG_TASK'
+// 拖拽结束
+export const OVER_TASK = 'OVER_TASK'
+export const ON_DISPATCHER_TASK_TYPE = 'ON_DISPATCHER_TASK_TYPE'
+export const ON_DISPATCHER_TASK_CANCEL = 'ON_DISPATCHER_TASK_CANCEL'
+// 油单列表
+export const GET_OIL_LIST = 'GET_OIL_LIST'
+// 修改油单
+export const UPDATE_OIL = 'UPDATE_OIL'
+export const UPDATE_OIL_SUCCESS = 'UPDATE_OIL_SUCCESS'
+export const UPDATE_OIL_ERROR = 'UPDATE_OIL_ERROR'
+// 油单查询
+export const SEARCH_OIL = 'UPDATE_OIL_LIST'
+export const SEARCH_OIL_SUCCESS = 'SEARCH_OIL_SUCCESS'
+export const SEARCH_OIL_RROR = 'SEARCH_OIL_ERROR'
+
+// 滚动条
+export const ON_VIEW_WHEEL_SCROLL = 'ON_VIEW_WHEEL_SCROLL'
+export const ON_VIEW_WHEEL_SCROLL_CANCEL = 'ON_VIEW_WHEEL_SCROLL_CANCEL'
+
+// 新建油料 modal
+export const SHOW_ADD_OIL_MODAL = 'SHOW_ADD_OIL_MODAL'
+export const HIDE_ADD_OIL_MODAL = 'HIDE_ADD_OIL_MODAL'
+export const ADD_OIL_PLANTS = 'ADD_OIL_PLANTS'
+export const ADD_OIL_PLANTS_SUCCESS = 'ADD_OIL_PLANTS_SUCCESS'
+export const ADD_OIL_PLANTS_ERROR = 'ADD_OIL_PLANTS_ERROR'
+
+// shuangshuang
+export const SHOW_TASK_LIST_DRAWER = 'SHOW_TASK_LIST_DRAWER'
+export const HIDE_TASK_LIST_DRAWER = 'HIDE_TASK_LIST_DRAWER'
+
+// websocket
+/**
+ * 任务状态改变-已下发任务列表
+ * @type {string}
+ */
+export const ON_DISPATCHED_TASK_STATUS_CHANGE = 'ON_DISPATCHED_TASK_STATUS_CHANGE'
+/**
+ * 任务取消-已下发任务列表
+ * @type {string}
+ */
+export const ON_DISPATCHED_TASK_CANCEL = 'ON_DISPATCHED_TASK_CANCEL'
+/**
+ * 航班新建-本场起飞
+ * @type {string}
+ */
+export const ON_FLIGHT_TOOK_OFF_ON_THE_FIELD_ADDED = 'ON_FLIGHT_TOOK_OFF_ON_THE_FIELD_ADDED'
+/**
+ * 航班修改-本场起飞
+ * @type {string}
+ */
+export const ON_TASK_DISPATCHED = 'ON_TASK_DISPATCHED'
+export const ON_FLIGHT_TOOK_OFF_ON_THE_FIELD_CHANGE = 'ON_FLIGHT_TOOK_OFF_ON_THE_FIELD_CHANGE'
+export const ON_PERSONNEL_LOGIN = 'ON_PERSONNEL_LOGIN'
+export const ON_PERSONNEL_EXIT = 'ON_PERSONNEL_EXIT'
+export const ON_PERSONNEL_CAR_BINDING = 'ON_PERSONNEL_CAR_BINDING'
+
+/**
+ * 当websocket断线重连3次后
+ * @type {string}
+ */
+export const ON_WEBSOCKET_ERROR =  'ON_WEBSOCKET_ERROR'
+/**
+ * 当websocket链接成功
+ * @type {string}
+ */
+export const ON_WEBSOCKET_SUCCESS = 'ON_WEBSOCKET_SUCCESS'
+
+export const HIDE_FLIGHT_FILTER_SHOW = 'HIDE_FLIGHT_FILTER_SHOW'

@@ -1,0 +1,36 @@
+//@import '../../../../styles/variable.scss';
+//.filter-box{
+//  width: 100%;
+//  box-sizing: border-box;
+//  padding-top: 3.5%;
+// .filter-box-form{
+//   display: flex;
+//   flex-wrap: wrap;
+//   .ant-select-selection{
+//     background: $global-primary;
+//     border: 1px solid #1890FF;
+//}
+//.ant-form-item{
+//  width: 20%;
+//  margin-left: 20px;
+//  color: #fff;
+//    }
+//  }
+//}
+//.select-option{
+//  background: $global-primary !important;
+//}
+//.select-option{
+//  background: #2a2c3b!important;
+//  border-left:1px solid #1890FF;
+//  border-right:1px solid #1890FF;
+//}
+//.select-option:first-child{
+//  border-top: 1px solid #1890FF;
+//}
+//.select-option:last-child{
+//  border-bottom: 1px solid #1890FF;
+//}
+//.select-option:hover{
+//   background: #f83c68!important;
+// }

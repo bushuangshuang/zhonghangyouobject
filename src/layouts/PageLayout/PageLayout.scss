@@ -1,0 +1,304 @@
+@import '../../styles/variable.scss';
+.text-center {
+  width: 100vw;
+  height: 100vh;
+  min-width: 1600px;
+  min-height: 900px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  .pageLayout-head {
+    width: 100%;
+    height: 90px;
+    background: #2a2c3b;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    box-sizing: border-box;
+
+    .head-nav-bar {
+      width: 60%;
+      height: 100%;
+      display: flex;
+
+      .nav-item {
+        flex: 1;
+        display: block;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .title-img {
+        width: 18px;
+        height: 18px;
+        display: block;
+
+        > img {
+          width: 100%;
+          height: 100%;
+          display: flex;
+        }
+      }
+
+      .nav-item > span {
+        display: block;
+        margin-top: 6px;
+      }
+
+      .nav-item:hover {
+        background: #f83c68;
+        text-decoration: none;
+        cursor:pointer;
+      }
+    }
+
+    .head-logo {
+      line-height: 80px;
+    }
+
+    .head-time {
+      display: flex;
+
+      .head-date-right {
+        color: #f83c68;
+        line-height: 80px;
+      }
+
+      .head-time-right {
+        margin-left: 12px;
+        margin-top: 2px;
+        line-height: 80px;
+      }
+    }
+  }
+}
+
+.page-layout__viewport {
+  width: 100%;
+  height: calc(100% - 90px);
+  //flex:1;
+  overflow: hidden;
+}
+
+.page-layout__nav-item--active {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+//改变model的样式
+.ant-modal {
+  //width: 80% !important;
+}
+
+.ant-modal-body{
+  padding: 0 !important;
+  background:#e9ebf3;
+}
+
+.ant-modal-footer{
+  background:#e9ebf3;
+}
+
+.new-flight {
+  width: 100%;
+  height:600px;
+  display: flex;
+  .new-flight-con{
+    width: 100%;
+    padding:40px;
+    display: flex;
+  }
+  .new-flight-item{
+    width:33%;
+    background: #fff!important;
+    box-sizing: border-box;
+    padding:24px;
+    border-radius:5px;
+    .new-flight-item-inner{
+      width:100%;
+      height:43px;
+      line-height: 50px;
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      .mark-star{
+        position: absolute;
+        top:0;
+        left:-10px;
+        color: #f83c68;
+      }
+      >span{
+        color:#2a2c3b;
+      }
+      >input{
+        border:none;
+        height:34px;
+        border:1px solid #a3a4aa;
+        //text-indent: 16px;
+        color:#a3a4aa ;
+      }
+      .select-item{
+        width:152px;
+        height:34px;
+        border:1px solid #a3a4aa;
+        color: #a3a4aa;
+        text-indent: 16px;
+      }
+      .select-item-con{
+        color: #a3a4aa;
+      }
+    }
+  }
+  .new-flight-item:nth-child(2){
+    margin-left:16px;
+  }
+  .new-flight-item:nth-child(3){
+    margin-left:16px;
+  }
+}
+
+.ant-modal-footer{
+  border:none!important;
+}
+
+//日历选择器的颜色
+.ant-calendar-picker-input.ant-input{
+  background: #fff;
+  width:154px;
+  border:1px solid #a3a4aa;
+  color:#7e7e7e;
+  position: absolute;
+  right:0;
+  top:-28px;
+}
+.ant-calendar-panel{
+  background: #fff;
+  color: #a3a4aa;
+}
+.ant-calendar-header{
+  color: #a3a4aa;
+  >div{
+    color: #a3a4aa;
+  }
+}
+.ant-calendar-month-panel-header{
+  background: #fff;
+  color: #7e7e7e;
+}
+.a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover{
+  color:#7e7e7e;
+}
+.ant-calendar-month-panel-year-select-content,.ant-calendar-month-panel-year-select-arrow{
+  color: #7e7e7e;
+}
+.a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]){
+  color: #a3a4aa;
+}
+.ant-calendar-year-panel-header{
+  background: #fff;
+}
+.ant-calendar-year-panel-decade-select-content{
+  color: #a3a4aa;
+}
+.ant-calendar-year-panel-body{
+  background: #fff;
+}
+//时间颜色
+.ant-calendar-time-picker-inner{
+  background: #fff;
+}
+.ant-calendar-time-picker-select ul>li{
+  color:#a3a4aa;
+}
+//时间选中的背景色
+.ant-calendar-time-picker-select-option-selected{
+
+}
+.ant-calendar-decade-panel-header{
+  background: #fff;
+  color: #7e7e7e;
+}
+.ant-calendar-decade-panel-century{
+  color: #7e7e7e;
+}
+.ant-calendar-decade-panel-table{
+  background: #fff;
+  color: #7e7e7e;
+}
+.ant-calendar table{
+  background: #fff;
+  color: #7e7e7e;
+}
+.ant-calendar-date{
+  color:#a3a4aa;
+}
+.ant-calendar-input{
+  background: #fff;
+  color:#a3a4aa;
+}
+.ant-calendar-today .ant-calendar-date {
+  border-color: transparent;
+  color: #2a2c3b!important;
+  background: #fff!important;
+}
+//油料的样式
+.Oil-Modal{
+  width: 55% !important;
+  .ant-modal-content{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    //width: $oil-modal;
+  }
+}
+
+
+.Oil-box{
+  color: #000 !important;
+  box-sizing: border-box;
+  padding: 5%;
+  //width: 50% !important ;
+  .Oil-item{
+    width: 100%;
+    //display: flex;
+    //flex-direction: column;
+    background: #fff;
+    box-sizing: border-box;
+    padding-top: 1%;
+    margin-bottom: 3%;
+
+    box-sizing: border-box;
+    padding: 2%;
+    .Oil-title{
+      width: 100%;
+      display: block;
+      color: #000 !important;
+      padding-top: 1%;
+      padding-bottom:1%;
+      box-sizing: border-box;
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 3%;
+    }
+    .Oil-item-list{
+      display: flex;
+      justify-content: space-between;
+      //width: 30%;
+      .Oil-item-list-li{
+        color: #000 !important;
+      }
+    }
+  }
+}
